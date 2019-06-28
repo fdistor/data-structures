@@ -11,5 +11,7 @@ module.exports = class Stack {
     return this.stack.pop();
   }
 
-  peek() {}
+  peek() {
+    return this.stack.length ? this.stack[this.stack.length - 1] : null;
+  }
 };
