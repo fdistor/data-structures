@@ -49,5 +49,13 @@ describe("Stack functionality", () => {
     expect(stack.pop()).to.equal(undefined);
   });
 
-  it("Should return the most recent item put into the stack", () => {});
+  it("Should return the most recent item put into the stack", () => {
+    stack.push(1);
+    stack.push(2);
+    expect(stack.peek()).to.equal(2);
+    stack.pop();
+    expect(stack.peek()).to.equal(1);
+    stack.pop();
+    expect(stack.peek()).to.equal(null);
+  });
 });
