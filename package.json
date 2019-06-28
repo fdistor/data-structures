@@ -1,0 +1,24 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "graph.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdistor/data-structures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fdistor/data-structures/issues"
+  },
+  "homepage": "https://github.com/fdistor/data-structures#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
