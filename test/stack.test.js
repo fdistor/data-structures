@@ -39,7 +39,15 @@ describe("Stack functionality", () => {
     expect(stack.stack[0]).to.equal(1);
   });
 
-  it("Should remove the most recent item put into the stack", () => {});
+  it("Should remove the most recent item put into the stack", () => {
+    stack.push(1);
+    stack.push(4);
+    stack.push(8);
+    expect(stack.pop()).to.equal(8);
+    expect(stack.pop()).to.equal(4);
+    expect(stack.pop()).to.equal(1);
+    expect(stack.pop()).to.equal(undefined);
+  });
 
   it("Should return the most recent item put into the stack", () => {});
 });
