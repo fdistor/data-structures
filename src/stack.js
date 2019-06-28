@@ -7,7 +7,9 @@ module.exports = class Stack {
     this.stack.push(value);
   }
 
-  pop() {}
+  pop() {
+    return this.stack.pop();
+  }
 
   peek() {}
 };
